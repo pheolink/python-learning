@@ -34,6 +34,10 @@ while True:
     user_wins += 1
     
 
+  elif (user_input == computer_pick):
+    print("You & conmputer picked same. try again !")
+    user_wins += 0
+
   elif (user_input == "scissor" or user_input == 's') and (computer_pick == "paper" or computer_pick == "p"):
     print("You won !")
     user_wins += 1
